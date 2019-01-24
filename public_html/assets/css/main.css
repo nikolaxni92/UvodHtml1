@@ -1,0 +1,123 @@
+/*general*/
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif, serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+    font-size: 15px;
+}
+h1 {
+    color: red;
+    font-size: 30px;
+}
+h2 {
+    color: yellow;
+}
+
+p {
+    font-size: 12px;
+
+}
+
+.important {
+    margin: 25px;
+    padding: 15px;
+    border: 4px solid darkorange;
+    background-color: #fdfd3f;
+    width: 400px;
+}
+.specific-font {
+    font-family: serif;
+    font-size: 15px;
+}
+
+#define-html {
+    background-color: #9b9c81;
+    font-size: 17px;
+}
+#www-title {
+    color: green;
+}
+
+
+.sidebar {
+    background-color: #ccc;
+}
+
+ul.sidebar {
+    padding-left: 0px;
+    width: 400px;
+}
+
+ul.sidebar li {
+    list-style: none;
+}
+ul.sidebar > li {
+    border-top: 2px solid blue;
+}
+ul.sidebar li ul {
+    padding-left: 0px;
+}
+ul.sidebar li ul li {
+    background-color: #eee
+}
+a:hover {
+    color: black;
+    background-color: yellow;
+}
+
+a:visited {
+    color: #00FF00;
+}
+
+
+/*page students*/
+table.students, tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table.students {
+    width: 500px;
+}
+table.students thead tr th {
+    background-color: red;
+}
+table.students tbody tr td {
+    border-bottom: 3px solid green;
+}
+/*table.students tbody tr td {
+    border-bottom: yellow;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+}*/
+
+table.students tr:last-child {
+    color: aqua;
+}
+
+table.students tbody tr:nth-child(even) {
+    background-color: gray;
+}
+
+/*border-box*/
+#div1, #div2 {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid green;
+    margin: 30px;
+}
+#div1 {
+    box-sizing: content-box;
+    border: 5px solid green;
+}
+
+#div2 {
+    box-sizing: border-box;
+    border: 5px solid blue;
+}
+

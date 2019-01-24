@@ -1,0 +1,80 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: green;
+    color: gray;
+    padding: 20px;
+    text-align: right;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    padding-left: 0px;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    width: 100px;
+}
+
+nav ul li a:hover {
+    background-color: green;
+}
+
+article {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding: 30px;
+}
+
+aside {
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+    padding: 30px;
+}
+
+footer {
+    background-color: red;
+    background-color: green;
+    color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+#main {
+    background-color: blue;
+}
+
+@media(max-width: 1200px){
+    bpdy {
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px){
+    article {
+        display: block;
+        width: 100%
+    }
+    aside {
+        display: block;
+    }
+}
+@media(max-width: 480px){
+    nav ul li{
+        display: block;
+    }
+}
+
+nav ul li a {
+    display:  block;
+   
+}
